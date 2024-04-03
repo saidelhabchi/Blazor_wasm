@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\saelhabchi\\source\\repos\\Blazor\\FormulaOne\\FormulaOne\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FormulaOne.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FormulaOne.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\saelhabchi\\source\\repos\\Blazor\\FormulaOne\\FormulaOne\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\saelhabchi\\source\\repos\\Blazor\\FormulaOne\\FormulaOne\\wwwroot\\app.http",
+      "PackagePath": "staticwebassets\\app.http"
+    },
+    {
+      "Id": "C:\\Users\\saelhabchi\\source\\repos\\Blazor\\FormulaOne\\FormulaOne\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\saelhabchi\\source\\repos\\Blazor\\FormulaOne\\FormulaOne\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\saelhabchi\\source\\repos\\Blazor\\FormulaOne\\FormulaOne\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FormulaOne.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FormulaOne.props",
+      "PackagePath": "build\\FormulaOne.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FormulaOne.props",
+      "PackagePath": "buildMultiTargeting\\FormulaOne.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FormulaOne.props",
+      "PackagePath": "buildTransitive\\FormulaOne.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

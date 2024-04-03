@@ -1,0 +1,54 @@
+﻿@page "/drivers"
+@inject IDriverService DriverService
+
+<h3>Drivers</h3>
+<div class="d-flex justify-content-end">
+    <a href="driver-details" class="btn btn-primary">Create new product</a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Driver</th>
+            <th scope="col">Racing Number</th>
+            <th scope="col">Team</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var driver in drivers)
+        {
+            <tr>
+                <th scope="row">@counter</th>
+                <td>
+                    @driver.Name
+                </td>
+                <td>
+                    @driver.RacingNb
+                </td>
+                <td>@driver.TeamName</td>
+                <td>
+                    <a href="driver-details/@driver.Id" class="btn btn-success">Update</a>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+            counter++;
+        }
+    </tbody>
+</table>
+
+@code {
+    private int counter = 1;
+    //    public IEnumerable<Driver> drivers { get; set; } = new List<Driver>() {new Driver{Id = 1, Name="lewis hamilton", RacingNb="29", TeamName="Ferrari"}};
+    public IEnumerable<Driver> drivers { get; set; } = new List<Driver>();
+    protected override async Task OnInitializedAsync()
+        {
+        var apiDrivers = await DriverService.All();
+
+        if (apiDrivers != null && apiDrivers.Any())
+            {
+            drivers = apiDrivers;
+    }
+    }
+    
+}
